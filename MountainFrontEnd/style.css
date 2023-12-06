@@ -111,3 +111,45 @@ a {
     line-height: normal;
     padding: 10px 40px;
 }
+
+.tours_bg{
+    width: 1366px;
+    height: 1447px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.russia_bg{
+    width: 1366px;
+    height: 757px;
+    margin: 0 auto; 
+    background-image: url("images/RussiaBackground.jpg");
+}
+
+.blog_bg{
+    width: 1366px;
+    height: 1128px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.help_bg{
+    width: 1366px;
+    height: 690px;
+    margin: 0 auto;
+    background-color: #061B28;
+}   
+
+.contacts_bg{
+    width: 1366px;
+    height: 737px;
+    margin: 0 auto;
+    background-color: #fff;
+}   
+
+footer{
+    width: 1366px;
+    height: 121px;
+    margin: 0 auto;
+    background-color: #061B28;
+}
