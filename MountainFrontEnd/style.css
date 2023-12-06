@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Oswald;
+    src: url(fonts/Oswald.ttf);
+  }
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -81,9 +86,28 @@ a {
 
 .mountain h1{
     font-family: Oswald;
+    color: #fff;
     font-size: 98px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+.more{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -68%);
+}
+
+.more button{
+    background-color: transparent;
+    border: #fff 3px solid;
     color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 40px;
 }
