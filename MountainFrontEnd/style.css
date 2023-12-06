@@ -65,7 +65,6 @@
     justify-content: space-around;
 }
 
-
 a {
     text-decoration: none;
     color: #fff;
@@ -116,6 +115,41 @@ a {
     height: 1447px;
     margin: 0 auto;
     background-color: #fff;
+}
+
+.tours_bg .container{
+    position: relative;
+    width: 1170px;
+    height: 1177px;
+    top: 140px;
+    margin: 0 auto;
+
+}
+.tours_bg .container .tours_inside{
+ 
+    
+}
+.tours_bg .container .tours_inside img{
+    width: 815px;
+    height: 375px;
+
+}
+.tours_bg .container .tours_inside h2{
+    color: #061B28;
+    font-family: Oswald;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 115%;
+}
+
+.tours_bg .container .tours_inside p{
+    color: #061B28;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }
 
 .russia_bg{
