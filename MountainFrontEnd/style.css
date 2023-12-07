@@ -65,6 +65,11 @@
     justify-content: space-around;
 }
 
+.header .contacts .icons .search, .header .contacts .icons .account{
+    position: relative;
+    z-index: 1;
+}
+
 a {
     text-decoration: none;
     color: #fff;
@@ -79,6 +84,16 @@ a {
     color: #fff;
 }
 
+.circle{
+    height: 35px;
+    width: 35px;
+    background-color: #ffffff40;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
 .mountain{
     display: flex;
     flex-direction: column;
@@ -184,7 +199,11 @@ a {
     top: 0;
     left: 0;
 }
-
+.card .geo{
+    position: absolute;
+    top: 42px;
+    left: 40px;
+}
 .card h3{
     position: absolute;
     color: #061B28;
@@ -218,6 +237,22 @@ a {
     left: 60px;
     top: 42px;
 }
+
+.card .favorite img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);       
+    z-index: 1;
+}
+
+.card .favorite{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 35px;
+    height: 35px;
+}
 .card h5{
     position: absolute;
     color: #061B28;
@@ -235,6 +270,24 @@ a {
     display: flex;
     justify-content: space-around;
     align-self: flex-end;
+}
+
+.tours_bg .container .popular_tours .arrows .circle{
+    background-color: #e6e8ea;
+}
+
+.tours_bg .container .popular_tours .arrows .arrow_left, .tours_bg .container .popular_tours .arrows .arrow_right{
+    position: relative;
+    width: 35px;
+    height: 35px;
+}
+
+.arrow_left img, .arrow_right img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);       
+    z-index: 1;
 }
 
 .russia_bg{
