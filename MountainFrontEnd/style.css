@@ -94,6 +94,16 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);    
 }
+
+.ring{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    
+}
+
 .mountain{
     display: flex;
     flex-direction: column;
@@ -154,6 +164,7 @@ a {
     font-style: normal;
     font-weight: 600;
     line-height: 115%;
+    
 }
 
 .tours_bg .container .tours_inside p{
@@ -246,6 +257,23 @@ a {
     z-index: 1;
 }
 
+.card .ring{
+    position: absolute;
+    top: 50%;
+    left: -18px;
+    transform: translate(0,-50%);
+}
+
+.card .half{
+    top: 2.75px;
+    transform: rotate(45deg);
+}
+
+.card .quarter{
+    top: 2.75px;
+    transform: rotate(45deg);
+}
+
 .card .favorite{
     position: absolute;
     top: 40px;
@@ -253,6 +281,8 @@ a {
     width: 35px;
     height: 35px;
 }
+
+
 .card h5{
     position: absolute;
     color: #061B28;
