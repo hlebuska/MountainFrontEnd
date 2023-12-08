@@ -297,6 +297,68 @@ a {
     background-image: url("images/RussiaBackground.jpg");
 }
 
+.russia_bg .container{
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    width: 830px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.russia_bg .container h2{
+    color: #FCFCFC;
+    font-family: Oswald;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 115%;
+    margin-bottom: 25px;
+}
+
+.russia_bg .container h3{
+    color: #FCFCFC;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 60px;
+}
+
+.russia_bg .container table{
+    width: 830px;
+    height: 292px;
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+.russia_bg .container table tr{
+    border-bottom: solid 1px #45545E;
+}
+
+.russia_bg .container table th{
+    color: #A7AEB4;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.russia_bg .container table td{
+    color: #FCFCFC;
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%
+}
+
 .blog_bg{
     width: 1366px;
     height: 1128px;
