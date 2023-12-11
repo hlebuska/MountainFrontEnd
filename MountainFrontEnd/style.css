@@ -396,6 +396,146 @@ a {
     background-color: #fff;
 }
 
+.blog_bg .container{
+    position: relative;
+    width: 1170px;
+    margin: 0 auto;
+    top : 140px;
+
+}
+
+.blog_bg h2{
+    text-align: center;
+    color: #061B28;
+    font-family: Oswald;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 115%;
+}
+
+.blog_bg .container .blog_tablepart{
+    width: 400px;
+    height: 720px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog_bg .container .blog_tablepart table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: 640px;
+    width: 400px;
+}
+
+.blog_bg .container .blog_tablepart table tr{
+    border-bottom: solid 1px #061B28;
+}
+
+.blog_bg .container .blog_tablepart table td, .blog_bg .container .blog_tablepart table th{
+    padding: 0;
+    height: 128px; 
+}
+
+.blog_bg .container .blog_tablepart thead .blog_card{
+    background-color: #061B28;
+}
+
+
+.blog_bg .container .date{
+    color: #7E8386;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.blog_bg .container .blog_tablepart thead .blog_card p{
+    color:#FCFCFC;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+
+}
+.blog_bg .container .blog_tablepart tbody .blog_card{
+    position: relative;
+}
+
+.blog_bg .container .blog_tablepart tbody .blog_card p{
+    color: #061B28;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    position: absolute;
+    bottom: 25px;
+}
+
+.blog_bg .container .blog_tablepart .blog_card{
+    width: 400px;
+    height: 128px;
+    padding: 25px;
+}
+
+.blog_bg .container .blog_tablepart .read_all{
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    border: 0;
+    background-color: #EC5118;
+    color: #FCFCFC;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+.blog_bg .container .blog_inside{
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog_bg .container .blog_article{
+    width: 700px;
+    height: 732px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blog_bg .container .blog_article img{
+    padding-bottom: 40px;
+}
+
+.blog_bg .container .blog_article h3{
+    color:#061B28;
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    padding: 20px auto;
+}
+
+
+.blog_bg .container .blog_article p{
+    width: 660px;
+    color:#061B28;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
 .help_bg{
     width: 1366px;
     height: 690px;
