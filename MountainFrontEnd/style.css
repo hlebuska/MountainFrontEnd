@@ -541,7 +541,90 @@ a {
     height: 690px;
     margin: 0 auto;
     background-color: #061B28;
+    display: flex;
+    justify-content: space-between;
 }   
+
+.help_bg .help_inside{
+    width: 100%;
+}
+
+
+.help_bg .help_inside .container{
+    height: 530px;
+    width: 525px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.help_bg .help_inside .container h2{
+    color:#FCFCFC;
+    font-family: Oswald;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 115%;
+}
+
+.help_bg .help_inside .container h3{
+    color: #FCFCFC;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.help_bg .help_inside .container h4{
+    color: #FCFCFC;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%
+}
+
+.help_bg .help_inside .container form{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    all: unset;
+}
+
+.help_bg .help_inside .container input{
+    display: block;
+    height: 30px;
+    background-color: transparent;
+    border-bottom: 1px #45545E solid;
+    color: #7E8386;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.help_bg .help_inside .container .submit_form{
+    display: block;
+    height: 50px;
+    background-color: #EC5118;
+    border-bottom: 0;
+    color: #FCFCFC;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
 
 .contacts_bg{
     width: 1366px;
@@ -555,4 +638,32 @@ footer{
     height: 121px;
     margin: 0 auto;
     background-color: #061B28;
+}
+
+footer .container{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+footer .container .copyrights{
+    flex: 2;
+}
+footer .container h2{
+    flex: 1;
+}
+footer .container .policies{
+    flex: 2;
+    text-align: end;
+}
+
+footer .container .copyrights a, footer .container .policies a{
+    color:#FCFCFC;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }
