@@ -40,9 +40,8 @@
     align-items: center;
     height: 100px;
 }
-
-.header .logo{
-
+.logo{
+    cursor:pointer;
 }
 
 .header nav{
@@ -68,6 +67,7 @@
 .header .contacts .icons .search, .header .contacts .icons .account{
     position: relative;
     z-index: 1;
+    cursor:pointer;
 }
 
 a {
@@ -133,6 +133,7 @@ a {
     font-weight: 500;
     line-height: normal;
     padding: 10px 40px;
+    cursor:pointer;
 }
 
 .tours_bg{
@@ -310,6 +311,7 @@ a {
     position: relative;
     width: 35px;
     height: 35px;
+    cursor:pointer;
 }
 
 .arrow_left img, .arrow_right img{
@@ -495,6 +497,7 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
+    cursor:pointer;
 }
 .blog_bg .container .blog_inside{
     position: relative;
@@ -624,6 +627,7 @@ input {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    cursor:pointer;
 }
 
 .contacts_bg{
@@ -632,6 +636,56 @@ input {
     margin: 0 auto;
     background-color: #fff;
 }   
+
+.contacts_bg .container{
+    width: 975px;
+    height: 457px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 140px;
+    left: 100px;
+}
+.contacts_bg .container .contact_info{
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}   
+
+.contacts_bg .container .contact_info h2{
+    color:#061B28;
+    font-family: Oswald;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 115%;
+}
+
+.contacts_bg .container .contact_info h3{
+    color:#061B28;
+    font-family: Roboto, sans-serif ;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+.contacts_bg .container .contact_info h3 a{
+    color:#061B28;
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; 
+}
+
+.contacts_bg .container .contact_info h3 .socials{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
 
 footer{
     width: 1366px;
